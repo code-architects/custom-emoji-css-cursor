@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f3443;
+}
+.container {
+    width: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.item {
+    background: #34e89e;
+    padding: 40px 0;
+    /* font-size: 18px; */
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.happy {
+    cursor: url("./happy.cur"), auto;
+}
+.love {
+    cursor: url("./love.cur"), auto;
+}
+.wink {
+    cursor: url("./wink.cur"), auto;
+}
+.sad {
+    cursor: url("./sad.cur"), auto;
+}
